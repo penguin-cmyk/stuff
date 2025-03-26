@@ -1,3 +1,4 @@
+-- ts was rewritten by ai and decompiled using medal; it may not be the most accurate reprenstation of the source, but a redeable one 
 local currentScript = script 
 getfenv().script = nil 
 
