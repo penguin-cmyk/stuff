@@ -390,10 +390,10 @@ declare function rconsoleprint(content: string)
 declare function rconsolewarn(content: string)
 declare function rconsolerror(content: string)
 declare function rconsolesettitle(title: string)
-declare function rconolsehide()
+declare function rconsolehide()
 declare function rconsoledestroy()
 declare function rconsoledestroy()
-declare function rconolsehidden(): boolean 
+declare function rconsolehidden(): boolean 
 
 --// actors
 export type actor_added = {
