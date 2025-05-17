@@ -276,7 +276,7 @@ export type listfiles = (path: string) -> { [number]: string }
 declare listfiles: listfiles
 
 --// instances
-declare function clonref(object: ScreenGui): ScreenGui
+declare function cloneref<T>(service: T): T 
 declare function fireproximityprompt(prompt: ProximityPrompt): ()
 declare function fireclickdetector(object: ClickDetector, distance: number?, event: string?): ()
 declare function firetouchinterest(part1: BasePart, part2: BasePart, toggle: boolean | number): ()
